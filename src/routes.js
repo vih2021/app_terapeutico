@@ -6,8 +6,8 @@ import Signup from './pages/Signup.js'
 export default function routes(){
     return(
         <Routes>
-            <Route path='/home' element={<Login/>}/>
-            <Route path='/app' element={<Home/>}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/home' element={<Home/>}/>
             <Route path='/signup' element={<Signup/>}/>
         </Routes>
     )
