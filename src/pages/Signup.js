@@ -5,7 +5,7 @@ export default function Signup(){
     const navigate = useNavigate();
 
     function goHome() {
-        navigate('/app')
+        navigate('/home')
     }
 
     return(
@@ -36,7 +36,7 @@ export default function Signup(){
                     </button>
                 </form>
                 <div>
-                    <p className="signup__p">Já possui cadastro? <a className="signup__a" href="/">Realize o Login</a></p>
+                    <p className="signup__p">Já possui cadastro? <a className="signup__a" href="/login">Realize o Login</a></p>
                 </div>
             </div>
             <div className="signup__image-container">
