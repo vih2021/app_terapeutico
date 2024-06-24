@@ -5,7 +5,7 @@ export default function Signup(){
     const navigate = useNavigate();
 
     function goHome() {
-        navigate('/app')
+        navigate('/home')
     }
 
     return(
