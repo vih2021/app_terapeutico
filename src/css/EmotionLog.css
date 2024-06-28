@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+.Menu{
+  height: 100%;
+}
+
+.principal{
+  height: 100%;
+}
+
+#link{
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.Items{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+#itemTitleEmotionLog{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+#itemRelatorio{
+  font-size: 150%;
+  font-style: normal;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 5px, rgba(0, 0, 0, 0.3) 0px 7px 2px -4px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  padding: 20px;
+  width: 40%;
+  height: auto;
+  size: auto;    
+  background-color: #3A5B22;
+  border: 0.01px solid #ffdddd70;
+}
+
+#item:hover{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#itemProfissional{
+  font-size: 150%;
+  font-style: normal;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 5px, rgba(0, 0, 0, 0.3) 0px 7px 2px -4px;
+  color: #000000;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  padding: 3%;
+  width: 40%;
+  height: auto;
+  size: auto;    
+  background-color: #D9D9D9;
+  border: 0.01px solid #ffdddd70;
+  border-radius: 8px;
+}
+
+#itemProfissional:hover{
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.01) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.001) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.input-container {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.input-container * {
+  width: 100%;
+}
